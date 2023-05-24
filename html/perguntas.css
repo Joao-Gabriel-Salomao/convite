@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(40, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: auto;
+    background: rgb(152, 8, 8);
+    border-radius: 10px;
+    width: 25rem;
+    padding: 1rem;
+    box-shadow: 10px 10px black;
+}
+
+h2{
+    color: aliceblue;
+    text-shadow: 1px 2px black ;
+    margin: 30px;
+    justify-content: center;
+}
+
+img{
+    justify-content: center;
+    margin: 0;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: aliceblue;
+    height: 2.5rem;
+    width: 3.5rem;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+button:hover{
+    background-color: rgb(220, 7, 7);
+    color: aliceblue;
+    border-color: aliceblue 2px solid;
+    border-radius: 20px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
